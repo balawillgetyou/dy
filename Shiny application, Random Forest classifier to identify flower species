@@ -1,0 +1,5 @@
+Users can interact with this Shiny application by specifying key dimensions of a flower. This information is used by a 
+Random Classifier in the back end, which then identifies the species of the flower (specifically, an Iris flower).
+
+Shiny application URL: https://balawillgetyou.shinyapps.io/irisApp
+R code URL: https://github.com/balawillgetyou/DataProductsAssignment
