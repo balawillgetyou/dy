@@ -7,17 +7,20 @@
 # activity and each subject. 
 
 library(dplyr)
-
-# Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  
+#Sourcing data
+fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileURL, destfile = '.Documents/CourseraDataScience/samsunghar.zip')
+unzip("samsunghar.zip")
 
 # The X tables containing the ~10,000 measurements are read and combined here
-X_train <- read.table ("X_train.txt")
-X_test <- read.table ("X_test.txt")
+X_train <- read.table ("./UCI HAR Dataset/train/X_train.txt")
+X_test <- read.table ("./UCI HAR Dataset/test/X_test.txt")
 X_complete <- rbind(X_train, X_test)
 
 # Column (measured variable) names provided are afixed, mean and standard deviation columns
 # are extracted and a subset of X files is formed.
-features <- read.table ("features.txt")
+features <- read.table ("./UCI HAR Dataset/features.txt")
 names(X_complete) <- features$V2
 namesWmean <- grep("mean()",names(X_complete), fixed = TRUE, value = TRUE)
 namesWstd <- grep("std()",names(X_complete), fixed = TRUE, value = TRUE)
@@ -26,20 +29,20 @@ std <- subset(X_complete, select = c(namesWstd))
 X_subset <- cbind(mean, std)
 
 # Subjects whose activity was measured are read and the column named here
-subject_train <- read.table ("subject_train.txt")
-subject_test <- read.table ("subject_test.txt")
+subject_train <- read.table ("./UCI HAR Dataset/train/subject_train.txt")
+subject_test <- read.table ("./UCI HAR Dataset/test/subject_test.txt")
 subject_complete <- rbind(subject_train, subject_test)
 names(subject_complete) <- "subject"
 
 # The Y files identifying the activity codes whose measurements are in the X files are read
 # and the column named here
-y_train <- read.table ("y_train.txt")
-y_test <- read.table ("y_test.txt")
+y_train <- read.table ("./UCI HAR Dataset/train/y_train.txt")
+y_test <- read.table ("./UCI HAR Dataset/test/y_test.txt")
 y_complete <- rbind(y_train, y_test)
 names(y_complete) <- "activityNo"
 
 # The activity codes to activiy name/ description map is loaded and the column named. 
-activity_labels <- read.table ("activity_labels.txt")
+activity_labels <- read.table ("./UCI HAR Dataset/activity_labels.txt")
 names(activity_labels) <- c("activityNo", "activity")
 
 # All the pieces of data are assembled here. 
