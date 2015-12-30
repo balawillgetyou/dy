@@ -1,0 +1,49 @@
+---
+title: "Using APIs to exchange data"
+author: "BK"
+date: "Wednesday, December 30, 2015"
+output: word_document
+---
+
+In this demo,  
+* the twitter REST API is accessed using the GET method  
+* 5 of the most recent tweets of a specified user (One R Tip a Day@rlangtip) are extracted in JSON format  
+* only the text of the tweets are filtered out and displayed  
+
+A prerequisite is the creation of an application (BalaTwitterAPI) at https://dev.twitter.com and this is not covered here.  
+
+This is the version of the code with the keys masked  
+
+```{r, eval=FALSE}
+library(httr)
+library(rjson)
+
+myapp <- oauth_app("BalaTwitterAPI", key = "xxxxxxxxxxx", secret = "xxxxxxxxxxx")
+sig <- sign_oauth1.0(myapp, token = "xxxxxxxxxxx", token_secret = "xxxxxxxxxxx")
+recent <- GET("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=rlangtip&count=5",sig)
+
+json1 <- content(recent)
+json2 <- jsonlite::fromJSON(toJSON(json1))
+json2[1:5,4]
+```
+  
+  
+  
+These are the 5 latest tweets published by "One R Tip a Day@rlangtip"  
+  
+  
+  
+```{r, echo=F, message=FALSE, warning=FALSE}
+library(httr)
+library(rjson)
+
+myapp <- oauth_app("twitter", key = "wijb9uSoLk2IlJi2kcOtbDo5y", secret = "7SXVMu0uFb4QQFHT6mMB6zKzTSJquKyEKJXxpa6JGNTGv2bCWC")
+sig <- sign_oauth1.0(myapp, token = "16510171-x9Ma3jc4qlxv6kvOdkpSZawSWQC20PIuMY3z8gQfS", token_secret = "2VCQrhwjYzDGVW9HjALLbt0EyKQHZP6tk7d6A7Faw5NED")
+recent <- GET("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=rlangtip&count=5",sig)
+#homeTL <- GET("https://api.twitter.com/1.1/statuses/mentions_timeline.json",sig)
+
+json1 <- content(recent)
+json2 <- jsonlite::fromJSON(toJSON(json1))
+json2[1:5,4]
+```
+
