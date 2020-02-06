@@ -25,6 +25,6 @@ Specialist in data science, technical delivery and sales support.
 
 |	 | Data architecture | Data ingestion |	Data wrangling	| Modelling & visualization |	Deployment |
 | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
-| On premise | <ul><li> Data model, data dictionary, legacy data quality check/ cleansing </li><li> Data migration (ETL), data integration (EAI)</li></ul> | Greenplum | | <ul><li>Machine learning: Stacking, time series, sentiment, collaborative filtering, survival</li><li>Neural networks (NLP): Embedding, LSTM, Keras, Spacy, Tensorflow</li><li>Visualization: ggplot, Seaborn, Power BI</li><li>[Model explain-ability (LIME, SHAP)!](https://github.com/balawillgetyou/dy/blob/master/ExplainPredictionsLIMESHAPAmexAV.pdf)</li></ul> | <ul><li>A</li><li>B</li></ul><ul><li>C</li></ul> |
+| On premise | <ul><li> Data model, data dictionary, legacy data quality check/ cleansing </li><li> Data migration (ETL), data integration (EAI)</li></ul> | Greenplum | | <ul><li>Machine learning: Stacking, time series, sentiment, collaborative filtering, survival</li><li>Neural networks (NLP): Embedding, LSTM, Keras, Spacy, Tensorflow</li><li>Visualization: ggplot, Seaborn, Power BI</li><li>[Model explain-ability (LIME, SHAP)](https://github.com/balawillgetyou/dy/blob/master/ExplainPredictionsLIMESHAPAmexAV.pdf)</li></ul> | <ul><li>A</li><li>B</li></ul><ul><li>C</li></ul> |
 
 
