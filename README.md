@@ -16,7 +16,7 @@ Specialist in data science, technical delivery and sales support.
 
 | Training in data science | Degrees |
 | :------------ | :------------ |
-| <ul><li>Azure DP-100 - Designing and Implementing a Data Science Solution on Azure</li><li>Azure AI-100: Designing and Implementing an Azure AI Solution</li><li>Power BI</li><li>Data Science Specialization by Johns Hopkins University</li><li>Machine Learning by Stanford University</li><li>Statistical Learning by Stanford University</li><li>5.	Natural Language Processing by Microsoft</li></ul>| |
+| <ul><li>Azure DP-100 - Designing and Implementing a Data Science Solution on Azure</li><li>Azure AI-100: Designing and Implementing an Azure AI Solution</li><li>Power BI</li><li>Data Science Specialization by Johns Hopkins University</li><li>Machine Learning by Stanford University</li><li>Statistical Learning by Stanford University</li><li>Natural Language Processing by Microsoft</li></ul> | <ul><li>1.	MS [Software Engineering, BITS, Pilani]</li><li>MBA [Finance & Systems, MDI, Gurgaon]</li><li>Bachelor of Engineering [Auto, Karnatak University]</li></ul> |
 
 
 
