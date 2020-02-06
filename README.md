@@ -25,7 +25,7 @@ Specialist in data science, technical delivery and sales support.
 
 |	 | Data architecture | Data ingestion |	Data wrangling	| Modelling & visualization |	Deployment |
 | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
-| On premise | * Data model, data dictionary, legacy data quality check/ cleansing 
-* Data migration (ETL), data integration (EAI) | <ul><li>A</li><li>B</li></ul><ul><li>C</li></ul> |
+| On premise | <ul><li> Data model, data dictionary, legacy data quality check/ cleansing </li><li> Data migration (ETL), data integration (EAI)</li></ul>
+ | <ul><li>A</li><li>B</li></ul><ul><li>C</li></ul> |
 
 
