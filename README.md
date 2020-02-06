@@ -8,10 +8,10 @@ Specialist in data science, technical delivery and sales support.
 
 | Key skills | Major projects |
 | :------------ | :------------ |
-| 1.	Programming: R & Python GitHub profile 
+| 1.	Programming: R & Python GitHub profile  | |
 2.	Azure Machine Learning: Modeling > Containerization > Web service deployment 
 3.	Technical delivery management 
-4.	Logo hunting support, account farming, product management | |
+4.	Logo hunting support, account farming, product management
 
 
 | Key skills | Major projects |
