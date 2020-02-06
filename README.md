@@ -2,8 +2,6 @@
 **Specialist in data science, technical delivery and sales support.**
 
 [Published white paper on an NLP project at Cognizant for a large pharma client](https://www.cognizant.com/whitepapers/optimizing-it-operations-with-natural-language-processing-codex4914.pdf)
-
-**Training in data science**  
   
 | Training in data science | Degrees |
 | :------------ | :------------ |
