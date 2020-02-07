@@ -1,11 +1,12 @@
-# dy
+***Bala Kesavan +91.98408.50411 scmguru@gmail.com***
+
 **Specialist in data science, technical delivery and sales support.**
 
 [White paper published by Cognizant: Optimizing IT Operations with Natural Language Processing](https://www.cognizant.com/whitepapers/optimizing-it-operations-with-natural-language-processing-codex4914.pdf)
   
 | Training in data science | Degrees |
 | :------------ | :------------ |
-| <ul><li>Azure DP-100 - Designing and Implementing a Data Science Solution on Azure</li><li>Azure AI-100: Designing and Implementing an Azure AI Solution</li><li>Power BI</li><li>Data Science Specialization by Johns Hopkins University</li><li>Machine Learning by Stanford University</li><li>Statistical Learning by Stanford University</li><li>Natural Language Processing by Microsoft</li></ul> | <ul><li>MS [Software Engineering, BITS, Pilani]</li><li>MBA [Finance & Systems, MDI, Gurgaon]</li><li>Bachelor of Engineering [Auto, Karnatak University]</li></ul> |
+| <ul><li>Azure DP-100 - Designing and Implementing a Data Science Solution on Azure, by Microsoft</li><li>Azure AI-100: Designing and Implementing an Azure AI Solution, by Microsoft</li><li>Power BI, by Microsoft</li><li>Natural Language Processing, by Microsoft</li><li>Data Science Specialization by Johns Hopkins University</li><li>Machine Learning by Stanford University</li><li>Statistical Learning by Stanford University</li></ul> | <ul><li>MS [Software Engineering, BITS, Pilani]</li><li>MBA [Finance & Systems, MDI, Gurgaon]</li><li>Bachelor of Engineering [Auto, Karnatak University]</li></ul> |
 
 
 **Projects across the data science value stream, with GitHub links to specific projects:**  
