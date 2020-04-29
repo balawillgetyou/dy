@@ -6,7 +6,7 @@
   
 | Sample projects |Training in data science | Degrees |
 | :------------ | :------------ | :------------ |
-| <ul><li>MS [Software Engineering, BITS, Pilani]</li><li>MBA [Finance & Systems, MDI, Gurgaon]</li><li>Bachelor of Engineering [Auto, Karnatak University]</li></ul> | <ul><li>Azure DP-100 - Designing and Implementing a Data Science Solution on Azure, by Microsoft</li><li>Azure AI-100: Designing and Implementing an Azure AI Solution, by Microsoft</li><li>Power BI, by Microsoft</li><li>Natural Language Processing, by Microsoft</li><li>Data Science Specialization, by Johns Hopkins University</li><li>Machine Learning, by Stanford University</li><li>Statistical Learning, by Stanford University</li></ul> | <ul><li>MS [Software Engineering, BITS, Pilani]</li><li>MBA [Finance & Systems, MDI, Gurgaon]</li><li>Bachelor of Engineering [Auto, Karnatak University]</li></ul> |
+| <ul><li>Pfizer: NLP published white paper</li><li> Semantic search: NLP draft white paper</li><li>3.	Azure AI bot: report</li></ul> | <ul><li>Azure DP-100 - Designing and Implementing a Data Science Solution on Azure, by Microsoft</li><li>Azure AI-100: Designing and Implementing an Azure AI Solution, by Microsoft</li><li>Power BI, by Microsoft</li><li>Natural Language Processing, by Microsoft</li><li>Data Science Specialization, by Johns Hopkins University</li><li>Machine Learning, by Stanford University</li><li>Statistical Learning, by Stanford University</li></ul> | <ul><li>MS [Software Engineering, BITS, Pilani]</li><li>MBA [Finance & Systems, MDI, Gurgaon]</li><li>Bachelor of Engineering [Auto, Karnatak University]</li></ul> |
 
 
 **Projects across the data science value stream, with GitHub links to specific projects:**  
